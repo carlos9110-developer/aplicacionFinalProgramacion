@@ -1,0 +1,30 @@
+.container {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 0px !important;
+}
+
+.btn-light {
+    width: 100%;
+    border-color: #c5c6c7;
+}
+
+.div-numeros-1 {
+    padding-left: 0 !important;
+}
+
+.col-lg-2 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.input {
+    background-color: white!important;
+}
+
+
+/*
+
+*/

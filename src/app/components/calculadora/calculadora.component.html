@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 div-numeros-1">
+            <div class="form-group col-lg-12">
+                <input type="text" disabled class="form-control input" [formControl]="campo2">
+            </div>
+            <div class="form-group col-lg-12">
+                <input type="text" disabled class="form-control input" [formControl]="campo1">
+            </div>
+        </div>
+        <div class="col-lg-12"></div>
+        <div class="col-lg-2">
+            <button type="button" (click)="eleccionNumero('7')" class="btn btn-light">7</button>
+            <button type="button" (click)="eleccionNumero('4')" class="btn btn-light">4</button>
+            <button type="button" (click)="eleccionNumero('1')" class="btn btn-light">1</button>
+            <button type="button" (click)="eleccionNumero('0')" [disabled]=" !accionRealizada " class="btn btn-light ">0</button>
+        </div>
+        <div class="col-lg-2 ">
+            <button type="button " (click)="eleccionNumero( '8') " class="btn btn-light ">8</button>
+            <button type="button " (click)="eleccionNumero( '5') " class="btn btn-light ">5</button>
+            <button type="button " (click)="eleccionNumero( '2') " class="btn btn-light ">2</button>
+            <button type="button " (click)="borrarTodo(1) " class="btn btn-light ">Borrar</button>
+        </div>
+        <div class="col-lg-2 ">
+            <button type="button " (click)="eleccionNumero( '9') " class="btn btn-light ">9</button>
+            <button type="button " (click)="eleccionNumero( '6') " class="btn btn-light ">6</button>
+            <button type="button " (click)="eleccionNumero( '3') " class="btn btn-light ">3</button>
+            <button type="button " [disabled]=" bloqueoIgual " (click)="igual()" class="btn btn-light ">=</button>
+        </div>
+        <div class="col-lg-2 ">
+            <button type="button " [disabled]=" bloqueado " (click)="eleccionOperacion('+') " class="btn btn-light ">+</button>
+            <button type="button " [disabled]=" bloqueado " (click)="eleccionOperacion('-') " class="btn btn-light ">-</button>
+            <button type="button " [disabled]=" bloqueado " (click)="eleccionOperacion('*') " class="btn btn-light ">*</button>
+            <button type="button " [disabled]=" bloqueado " (click)="eleccionOperacion('/') " class="btn btn-light ">/</button>
+        </div>
+
+
+
+    </div>
+
+
+
+</div>

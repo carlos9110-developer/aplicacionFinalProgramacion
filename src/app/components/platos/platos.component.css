@@ -1,0 +1,25 @@
+.titulo-platos {
+    margin-top: 2%;
+}
+
+.span-plato {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.span-precio {
+    font-size: 25px;
+}
+
+.cuerpo-tarjeta-plato {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.div-contiene-regresar {
+    margin-top: 2%;
+}
+
+.div-contiene-cargando {
+    margin-top: 20%;
+}
